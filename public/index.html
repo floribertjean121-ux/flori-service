@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flori Service | Portfolio Professionnel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="brand-container">
+            <div class="logo-circle">
+                <img src="HTL.jpg" alt="Logo Flori Service" class="logo-img">
+            </div>
+            <div class="logo-text">Flori Service</div>
+        </div>
+        <button id="theme-toggle" class="btn-theme">Basculer le thème</button>
+    </header>
+
+    <section class="hero">
+        <h1>Propulsez Votre Activité Grâce au Web</h1>
+        <p>Création de sites internet modernes, hautement sécurisés et optimisés pour les smartphones.</p>
+    </section>
+
+    <section class="about">
+        <h2>À Propos de Flori Service</h2>
+        <p>Passionnés par le code et l'innovation, nous concevons des applications performantes avec une architecture propre. Notre engagement est d'offrir des solutions fiables, un design percutant et une sécurité maximale pour chacun de vos projets.</p>
+    </section>
+
+    <section class="services">
+        <h2>Nos Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Interface Web (Frontend)</h3>
+                <p>Création de designs interactifs, fluides et parfaitement adaptés aux écrans de téléphones portables.</p>
+            </div>
+            <div class="service-card">
+                <h3>Serveur & Sécurité (Backend)</h3>
+                <p>Développement de bases de données robustes, hachage des mots de passe et blocage des cyberattaques.</p>
+            </div>
+            <div class="service-card">
+                <h3>Déploiement & Suivi</h3>
+                <p>Mise en ligne de votre site, configuration du nom de domaine et maintenance technique continue.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects">
+        <h2>Mes Réalisations</h2>
+        <div class="projects-grid">
+            
+            <div class="project-card">
+                <div class="project-media-box">
+                    <img src="HTL2.jpg" alt="Aperçu Réalisation 1" class="project-img-file">
+                </div>
+                <div class="project-info">
+                    <h3>Plateforme Web Dynamique</h3>
+                    <div class="project-video-box">
+                        <p class="video-label">Démonstration vidéo :</p>
+                        <video controls class="project-video-file">
+                            <source src="VIDEO1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="project-card">
+                <div class="project-media-box">
+                    <img src="photo2.jpg" alt="Aperçu Réalisation 2" class="project-img-file">
+                </div>
+                <div class="project-info">
+                    <h3>Application E-commerce Sécurisée</h3>
+                    <div class="project-video-box">
+                        <p class="video-label">Démonstration vidéo :</p>
+                        <video controls class="project-video-file">
+                            <source src="video2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-media-box">
+                    <img src="photo3.jpg" alt="Aperçu Réalisation 3" class="project-img-file">
+                </div>
+                <div class="project-info">
+                    <h3>Système de Gestion avec Espace Admin</h3>
+                    <div class="project-video-box">
+                        <p class="video-label">Démonstration vidéo :</p>
+                        <video controls class="project-video-file">
+                            <source src="video3.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="pricing">
+        <h2>Nos Tarifs & Offres de Lancement</h2>
+        <p class="pricing-subtitle">Réductions exclusives valables uniquement pour les clients des 2 premiers mois !</p>
+        
+        <div class="pricing-grid">
+            
+            <div class="price-card">
+                <div class="promo-badge">Promo -15%</div>
+                <h3>Formule Vitrine</h3>
+                <p class="price-description">Idéal pour exposer une activité professionnelle, récolter des avis et obtenir des contacts.</p>
+                <div class="price-box">
+                    <span class="old-price">150$</span>
+                    <span class="price">127.5$</span>
+                </div>
+                <ul>
+                    <li>Design personnalisé</li>
+                    <li>Page d'accueil + Page Contact</li>
+                    <li>Lien direct vers votre WhatsApp</li>
+                    <li>Optimisation d'affichage Mobile</li>
+                    <li>Référencement SEO Google de base</li>
+                    <li>Protocole de sécurité HTTPS</li>
+                </ul>
+                <button class="btn-chat" onclick="discuterTarif('Formule Vitrine Lancement', '127.5$')">Discuter sur WhatsApp</button>
+            </div>
+
+    
+            <div class="price-card popular">
+                <div class="promo-badge">Promo -20%</div>
+                <h3>Formule Dynamique</h3>
+                <p class="price-description">Idéal pour les blogs, sites d'actualités ou plateformes nécessitant des mises à jour régulières.</p>
+                <div class="price-box">
+                    <span class="old-price">250$</span>
+                    <span class="price">200$</span>
+                </div>
+                <ul>
+                    <li>Tous les avantages de la Formule Vitrine</li>
+                    <li>Tableau de bord Admin sécurisé</li>
+                    <li>Base de données relationnelle</li>
+                    <li>Gestion simplifiée des articles</li>
+                    <li>Espace de connexion sécurisé (Login)</li>
+                    <li>Protection contre les injections SQL</li>
+                </ul>
+                <button class="btn-chat" onclick="discuterTarif('Formule Dynamique Lancement', '200$')">Discuter sur WhatsApp</button>
+            </div>
+
+            <div class="price-card">
+                <div class="promo-badge">Promo -30%</div>
+                <h3>Formule E-commerce</h3>
+                <p class="price-description">Une boutique en ligne complète pour vendre vos produits et piloter vos ventes en temps réel.</p>
+                <div class="price-box">
+                    <span class="old-price">400$</span>
+                    <span class="price">280$</span>
+                </div>
+                <ul>
+                    <li>Tous les avantages de la Formule Dynamique</li>
+                    <li>Catalogue de produits illimité</li>
+                    <li>Panier d'achat interactif</li>
+                    <li>Interface de suivi des commandes</li>
+                    <li>Simulation de paiement sécurisé</li>
+                    <li>Gestion automatisée des stocks</li>
+                </ul>
+                <button class="btn-chat" onclick="discuterTarif('Formule E-commerce Lancement', '280$')">Discuter sur WhatsApp</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>Témoignages Clients</h2>
+        
+        <div id="testimonials-container" class="testimonials-grid"></div>
+
+        <div class="testimonial-form-box">
+            <h3>Ajouter votre témoignage</h3>
+            <form id="testimonial-form">
+                <input type="text" id="t-nom" placeholder="Votre Nom" required>
+                <input type="email" id="t-email" placeholder="Votre Email" required>
+                <textarea id="t-message" placeholder="Partagez votre expérience avec Flori Service..." rows="3" required></textarea>
+                <button type="submit" class="btn-submit">Publier mon témoignage</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Lancer un projet</h2>
+        <form id="contact-form">
+            <input type="text" id="contact-name" placeholder="Votre Nom" required>
+            <input type="email" id="contact-email" placeholder="Votre Email" required>
+            <textarea id="contact-message" placeholder="Décrivez votre projet web..." rows="4" required></textarea>
+            <button type="submit" class="btn-submit">Envoyer sur WhatsApp</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
